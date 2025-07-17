@@ -7,7 +7,6 @@ function addTask () {
     let delBtn = document.createElement("button");
     delBtn.innerText="Delete";
     newTask.appendChild(delBtn);
-    delBtn.classList.add("deletebutton");
     delBtn.setAttribute("onclick","del()");
 }
 
